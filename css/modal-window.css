@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/* Modal Window */
+.modal {
+  z-index: 100001; }
+
+.modal-dialog {
+  max-width: 1400px; }
+
+.modal .custom-control-label a {
+  text-decoration: underline; }
+
+.modal .custom-control-label a:hover {
+  text-decoration: none; }
+
+.modal-header {
+  border-bottom: none;
+  background-color: #ffffff;
+  color: #fff;
+  border-top: 15px solid #404447; }
+
+.modal-footer {
+  justify-content: flex-start;
+  border-top: none;
+  padding: 0px 75px 75px; }
+  @media screen and (max-width: 450px) {
+    .modal-footer {
+      padding: 0px 35px 35px; } }
+
+.modal-content {
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 0;
+  border: none; }
+
+.form-control-sm {
+  height: 35px;
+  border: transparent;
+  border-radius: 0; }
+
+.modal-content .form-control {
+  background-color: transparent;
+  border-bottom: 1px solid #b6b6b6;
+  color: #333333;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 10px; }
+  .modal-content .form-control:focus {
+    background-color: #f5f5f5; }
+
+.modal-content .form-control option {
+  color: #000; }
+
+.modal-content .custom-control-label::before {
+  background-color: transparent;
+  border: 1px solid #3f3f3f; }
+
+.modal-content .custom-control-input:checked ~ .custom-control-label::before {
+  color: #3f3f3f;
+  background-color: #3f3f3f; }
+
+.modal-header {
+  position: relative;
+  display: block;
+  border-radius: 0;
+  padding: 45px; }
+
+.custom-control-label::after {
+  cursor: pointer; }
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 0;
+  padding: 0; }
+
+.custom-control-checkbox {
+  padding-left: 0.9rem;
+  cursor: pointer; }
+
+.modal-title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 200;
+  color: #000; }
+
+.modal-header {
+  padding: 75px 75px 0px; }
+  @media screen and (max-width: 450px) {
+    .modal-header {
+      padding: 35px 25px 15px; } }
+
+.modal-body {
+  padding: 0px 75px 25px;
+  color: #000; }
+  @media screen and (max-width: 450px) {
+    .modal-body {
+      padding: 0px 25px 15px; } }
+
+.modal-header p {
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #000; }
+
+.modal-header .close {
+  position: absolute;
+  right: 2rem;
+  top: 0;
+  font-size: 2.5rem;
+  font-weight: 100;
+  opacity: 1;
+  line-height: inherit;
+  padding: 1rem;
+  margin: 0; }
+  @media screen and (max-width: 320px) {
+    .modal-header .close {
+      margin-right: -25px; } }
+
+input ~ label[for="soglasie"] {
+  width: 100%;
+  font-size: 16px;
+  margin: 25px 0px 0px 10px;
+  padding: 0px; }
+
+input ~ label[for="sogl"] {
+  width: 100%;
+  font-size: 16px;
+  margin: 10px 0px 0px 10px;
+  padding: 0px; }
+
+.button__to__send_zayavka__formmodal {
+  background-color: #3eb5f1;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 12px 45px; }
+  @media screen and (max-width: 450px) {
+    .button__to__send_zayavka__formmodal {
+      padding: 15px; } }
+
+.button__to__send_zayavka__formmodal:hover {
+  background-color: #47bbf5; }
+
+.button__to__send_zayavka__formmodal:active {
+  background-color: #35a9e4; }
+
+/* Выбор несколько из списка */
+.choose__item .items {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.choose__item .items li {
+  display: block;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 350;
+  border: 1px #8d8d8d solid;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin: 0px 15px 15px 0px;
+  float: left; }
+
+.choose__item .items li:hover {
+  background-color: #afafaf;
+  transition: 0.5s;
+  transform: scale(1.02, 1.02);
+  color: #fff; }
+
+.choose__item .items li:active {
+  background-color: #7a7a7a; }
+
+.selected {
+  background-color: #7a7a7a;
+  border-radius: 300px;
+  padding: 7px;
+  color: #fff; }
+
+hr {
+  clear: both; }
+
+.checks {
+  opacity: 0; }
+
+.col-form-label-sm {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: 350; }
+
+.modal__title__small__text {
+  font-size: 16px;
+  font-weight: 500; }
+
+.accompanying__message__bold {
+  font-size: 18px;
+  font-weight: 400; }

@@ -1,0 +1,141 @@
+.header__box {
+  padding: 3px 0px;
+  position: relative; }
+  @media screen and (max-width: 320px) {
+    .header__box {
+      text-align: center; } }
+  @media screen and (max-width: 576px) {
+    .header__box {
+      text-align: center; } }
+  @media screen and (max-width: 640px) {
+    .header__box {
+      text-align: center; } }
+
+.number {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 0; }
+  @media screen and (max-width: 1537px) {
+    .number {
+      font-size: 20px; } }
+  @media screen and (max-width: 320px) {
+    .number {
+      font-size: 24px; } }
+  @media screen and (max-width: 576px) {
+    .number {
+      font-size: 24px; } }
+  @media screen and (max-width: 640px) {
+    .number {
+      text-align: center; } }
+
+.block__number {
+  text-align: right; }
+  @media screen and (max-width: 320px) {
+    .block__number {
+      text-align: center; } }
+  @media screen and (max-width: 576px) {
+    .block__number {
+      text-align: center; } }
+  @media screen and (max-width: 640px) {
+    .block__number {
+      text-align: center; } }
+
+.number__text__small {
+  margin-bottom: 0;
+  font-weight: 450; }
+
+.header__mail {
+  font-size: 14px;
+  font-weight: 400;
+  color: #797979;
+  padding: 25px 0px; }
+  @media screen and (max-width: 320px) {
+    .header__mail {
+      margin-bottom: 0;
+      padding: 15px; } }
+  @media screen and (max-width: 576px) {
+    .header__mail {
+      margin-bottom: 0;
+      padding: 15px; } }
+
+@media screen and (max-width: 992px) {
+  .adres__block {
+    padding: 0px 45px; } }
+
+.text__adres {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 0px; }
+  @media screen and (max-width: 1440px) {
+    .text__adres {
+      font-size: 12px; } }
+  @media screen and (max-width: 320px) {
+    .text__adres {
+      font-size: 16px; } }
+  @media screen and (max-width: 375px) {
+    .text__adres {
+      font-size: 16px; } }
+
+.click__on__map {
+  margin-top: -15px; }
+  @media screen and (max-width: 576px) {
+    .click__on__map {
+      font-size: 18px;
+      margin-top: 15px; } }
+  @media screen and (max-width: 320px) {
+    .click__on__map {
+      font-size: 14px; } }
+  @media screen and (max-width: 375px) {
+    .click__on__map {
+      font-size: 14px; } }
+
+.sasp__logo::before {
+  content: '';
+  position: absolute;
+  width: 85px;
+  height: 45px;
+  left: 0;
+  margin-top: 20px;
+  background: url(/img/logo__sasp.png) center 0 no-repeat; }
+  @media screen and (max-width: 576px) {
+    .sasp__logo::before {
+      display: none; } }
+  @media screen and (max-width: 340px) {
+    .sasp__logo::before {
+      display: none; } }
+  @media screen and (max-width: 640px) {
+    .sasp__logo::before {
+      display: none; } }
+
+.sasp__text {
+  margin-left: 80px;
+  color: #002D41;
+  font-weight: 400; }
+  @media screen and (max-width: 576px) {
+    .sasp__text {
+      display: none; } }
+  @media screen and (max-width: 640px) {
+    .sasp__text {
+      display: none; } }
+
+.mob__logo__sasp {
+  margin-bottom: 5px; }
+
+.mob__sasp {
+  display: none;
+  font-size: 14px; }
+  @media screen and (max-width: 576px) {
+    .mob__sasp {
+      display: block; } }
+  @media screen and (max-width: 640px) {
+    .mob__sasp {
+      display: block; } }
+
+@media screen and (max-width: 576px) {
+  .mob__sasp__text {
+    margin-bottom: 0px; } }
+
+@media screen and (max-width: 640px) {
+  .mob__sasp__text {
+    margin-bottom: 0px; } }

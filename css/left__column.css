@@ -1,0 +1,124 @@
+@media screen and (max-width: 992px) {
+  .kachestvo__logo {
+    display: none; } }
+
+@media screen and (max-width: 1440px) {
+  .logo__kachestvo {
+    width: 35px; } }
+
+@media screen and (max-width: 1200px) {
+  .logo__kachestvo {
+    width: 30px; } }
+
+.logo__kachestvo__1 {
+  margin-left: 35px; }
+  @media screen and (max-width: 1440px) {
+    .logo__kachestvo__1 {
+      width: 35px;
+      margin-left: 15px; } }
+  @media screen and (max-width: 1200px) {
+    .logo__kachestvo__1 {
+      width: 30px;
+      margin-left: 10px; } }
+
+.logo__kachestvo__2 {
+  margin-left: 35px; }
+  @media screen and (max-width: 1440px) {
+    .logo__kachestvo__2 {
+      width: 35px;
+      margin-left: 15px; } }
+  @media screen and (max-width: 1200px) {
+    .logo__kachestvo__2 {
+      width: 30px;
+      margin-left: 10px; } }
+
+.arrow__item {
+  margin-top: -3px; }
+
+.text__info__basement {
+  margin-top: 145px; }
+  @media screen and (max-width: 1440px) {
+    .text__info__basement {
+      margin-top: 85px; } }
+  @media screen and (max-width: 1200px) {
+    .text__info__basement {
+      margin-top: 65px; } }
+  @media screen and (max-width: 992px) {
+    .text__info__basement {
+      display: none; } }
+
+.text__info__basement li {
+  padding: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  margin-bottom: 10px; }
+  .text__info__basement li a {
+    color: #080808;
+    text-decoration: none; }
+    .text__info__basement li a:hover {
+      color: #383838;
+      margin-left: 5px;
+      transition: 0.2s; }
+
+.text__info__basement__mob li {
+  padding: 0px;
+  list-style-type: none;
+  font-size: 12px;
+  margin-bottom: 10px; }
+  .text__info__basement__mob li a {
+    color: #080808;
+    text-decoration: none; }
+    .text__info__basement__mob li a:hover {
+      color: #383838;
+      margin-left: 5px;
+      transition: 0.2s; }
+
+.information__in__the__basement {
+  padding: 0px 25px; }
+
+.feedback__button {
+  padding: 0;
+  margin-top: 25px;
+  background-color: transparent;
+  border: none; }
+  .feedback__button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #6698e4;
+    padding: 10px 35px;
+    vertical-align: middle; }
+    @media screen and (max-width: 1440px) {
+      .feedback__button a {
+        padding: 8px 15px; } }
+    @media screen and (max-width: 1200px) {
+      .feedback__button a {
+        padding: 7px 12px;
+        font-size: 12px; } }
+    .feedback__button a:hover {
+      background-color: #6698e415;
+      transition: 0.2s; }
+
+.feedback {
+  border: 1px solid #6698e4;
+  border-radius: 45px; }
+
+.icon__vopros {
+  margin-top: -5px;
+  margin-left: -5px; }
+
+.line__column__small {
+  width: 75px;
+  border: 0.5px solid #b1b1b1;
+  margin-top: 45px;
+  margin-bottom: 25px; }
+
+.site__naks {
+  font-size: 14px; }
+  @media screen and (max-width: 1440px) {
+    .site__naks {
+      font-size: 10px;
+      font-weight: 500; } }
+  @media screen and (max-width: 1200px) {
+    .site__naks {
+      font-size: 12px;
+      font-weight: 500; } }

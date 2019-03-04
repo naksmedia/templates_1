@@ -1,0 +1,142 @@
+<!-- Модальное окно - Оставить заявку -->
+<div class="modal fade" id="modal-statement" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+    
+                <div class="modal-header">
+                    <h5 class="modal-title" id="">Оставить заявку <br> на аттестацию</h5>
+                    <div class="row">
+                        <div class="col col-sm-10 col-xl-6">
+                            <p class="modal__title__small__text">Введите свои контактные данные, выберите одну или несколько заявок
+                                для прохождения аттестации, и наш специалист свяжется с вами в ближайшее время.
+                            </p>
+                        </div>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><img src="/img/close2.png" title="Закрыть окно" alt=""></span>
+                    </button>
+                </div>
+    
+                <form>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="" class="col-form-label col-form-label-sm">Имя</label>
+                                    <input type="text" class="form-control form-control-sm" id="" required="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="" class="col-form-label col-form-label-sm">Номер телефона</label>
+                                    <input type="text" class="form-control form-control-sm" placeholder="" type="text" id="phone"
+                                        required="">
+                                </div>
+                            </div>
+                            <div class="col-xl-9">
+                                <div class="form-group ">
+                                    <label for="" class="col-form-label col-form-label-sm">Вид заявки(-ок)</label>
+                                    <div class="choose__item">
+                                        <ul class="items">
+                                            <li data-selected="0" data-guid="3">Аттестация технологий
+                                                сварки</li>
+                                            <li data-selected="0" data-guid="3">Аттестация сварочных
+                                                материалов</li>
+                                            <li data-selected="0" data-guid="3">Аттестация сварочного
+                                                оборудования</li>
+                                            <li data-selected="0" data-guid="2">Аттестация сварщиков <br>
+                                                и специалистов сварочного производства</li>
+                                            <li data-selected="0" data-guid="1">Лаборатория разрушающего <br>
+                                                и неразрушающего контроля</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <form method="post" class="file-uploader" action="" enctype="multipart/form-data">
+                                    <div class="file-uploader__message-area">
+                                        <p>Выбрать файл</p>
+                                    </div>
+                                    <div class="file-chooser">
+                                        <input class="file-chooser__input" type="file">
+                                    </div>
+                                    <!-- <input class="file-uploader__submit-button" type="submit" value="Загрузить"> -->
+                                </form>
+                            </div>
+                        </div>
+                        <div class="custom-control-checkbox custom-checkbox d-inline-block">
+                            <input type="checkbox" class="custom-control-input" id="soglasie" required="">
+                            <label class="custom-control-label" for="soglasie"><small>Я даю <a href="#">согласие на
+                                        обработку персональных данных</a></small></label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="button__to__send_zayavka__formmodal d-inline-block">Отправить заявку</button>
+    
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Набор в группу аттестации -->
+
+        <!-- Модальное окно - Задать вопрос -->
+        <div class="modal fade" id="modal-question" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                      
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">Задать вопрос</h5>
+                                <div class="row">
+                                    <div class="col col-sm-10 col-xl-8">
+                                        <p class="accompanying__message__bold">Есть вопросы по аттестации?
+                                            Оставляйте заявку на вопрос, и наш специалист ответит в ближайшее
+                                        </p> 
+                                    </div>
+                                </div>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true"><img src="/img/close2.png" alt=""></span>
+                                </button>
+                            </div>
+                       
+                        <form>
+                            <div class="modal-body px-3 px-sm-5">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="" class="col-form-label col-form-label-sm">Имя</label>
+                                            <input type="text" class="form-control form-control-sm" id="" required="">
+                                        </div>                              
+                                    </div> 
+                                    <div class="col-sm-12">
+                                            <div class="form-group">
+                                                    <label for="" class="col-form-label col-form-label-sm">Номер телефона</label>
+                                                    <input type="text" class="form-control form-control-sm" placeholder=""  type="text" id="phone2" required="">
+                                                </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                            <div class="form-group ">
+                                                <label for="" class="col-form-label col-form-label-sm">Ваш вопрос</label>
+                                                <textarea name="" class="form-control form-control-sm" rows="6" id="" required=""></textarea>
+                                            </div>
+                                        </div>                                                 
+                                </div>                        
+            
+                                <div class="custom-control-checkbox custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="sogl" required="">
+                                    <label class="custom-control-label" for="sogl"><small>Я даю <a href="#"
+                                                target="_blank">согласие на обработку персональных данных</a></small></label>
+                                </div>
+            
+                            </div>
+                            <div class="modal-footer pb-5 px-3 px-sm-5">
+                                <button type="submit" class="button__to__send_zayavka__formmodal">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End Задать вопрос -->
