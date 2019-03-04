@@ -150,7 +150,7 @@ input[type="search"]::placeholder {
   margin-right: 5px; }
 
 .box_head_bg {
-  padding: 115px 0px 115px; }
+  padding: 60px 0px 60px; }
 
 .head_bg_text {
   vertical-align: middle;
@@ -177,35 +177,56 @@ input[type="search"]::placeholder {
   font-weight: 300;
   color: #fff;
   line-height: 1.8;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-bottom: 25px; }
 
 .head_bg_box_button {
   vertical-align: middle;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 55px; }
+
+.request {
+  background: transparent;
+  border: none; }
+  .request a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 450; }
+
+.service {
+  background: transparent;
+  border: none; }
+  .service a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 450; }
 
 .request_button {
   background-color: #ffbd3d;
   border: none;
-  padding: 10px 25px; }
-  .request_button a {
-    color: #000;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none; }
+  padding: 10px 25px;
+  color: #000;
+  text-decoration: none; }
+  @media screen and (max-width: 320px) {
+    .request_button {
+      padding: 10px 10px; } }
   .request_button:hover {
     background-color: #e9b754;
-    transition: 0.2s; }
+    transition: 0.2s;
+    color: #000; }
 
 .service_button {
   background-color: transparent;
   border: 1px solid #fff;
   padding: 10px 50px;
-  margin-left: 25px; }
-  .service_button a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none; }
+  margin-left: 25px;
+  color: #fff; }
+  @media screen and (max-width: 365px) {
+    .service_button {
+      padding: 10px 45px;
+      margin-left: 10px; } }
   .service_button:hover {
     background-color: rgba(255, 255, 255, 0.075);
     transition: 0.2s; }

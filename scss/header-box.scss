@@ -1,54 +1,85 @@
-.logo_box_head{
+.logo_box_head {
     padding: 40px 0px;
+
+    @media screen and (max-width: 576px) {
+padding: 15px 10px;
+        vertical-align: middle;
+        text-align: center;
+    }
 }
 
-.logo_box_free{
+.logo_box_free {
     padding: 40px 0px;
+
+    @media screen and (max-width: 942px) {
+      display: none;
+    }
 }
 
-.logo_otstup{
+.logo_otstup {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-.head_number{
-    padding: 40px 0px; 
+.head_number {
+    padding: 40px 0px;
+
+    @media screen and (max-width: 576px) {
+        padding: 15px 5px;
+        vertical-align: middle;
+        text-align: center;
+    }
 }
 
-.number{
+.number {
     font-size: 26px;
     font-weight: 500;
+
+    @media screen and (max-width: 1300px) {
+        font-size: 20px;
+    }
 }
 
-.consultant_text{
+.consultant_text {
     font-size: 12px;
     margin-top: -15px;
 }
 
-.feedback_button{
+.feedback_button {
     padding: 60px 0px;
-    a{
+
+    a {
         text-decoration: none;
-    }
-    a{
         color: #fff;
+    }
+
+    @media screen and (max-width: 576px) {
+        padding: 15px 10px;
+        margin-bottom: 25px;
+        vertical-align: middle;
+        text-align: center;
     }
 }
 
-.feedback_header{
+.feedback_header {
     font-size: 16px;
     font-weight: 400;
     background-color: #23395d;
     padding: 10px 50px;
     border-radius: 45px;
-   color: #fff;
-   &:hover{
-    background-color: #2f4870;
-    transition: 0.2s;   
-   }
+    color: #fff;
+
+    &:hover {
+        background-color: #2f4870;
+        transition: 0.2s;
+    }
 }
 
-.logo_box_sasp{
+.logo_box_sasp {
     padding: 40px 0px;
     text-align: right;
+
+    @media screen and (max-width: 1399px) {
+        display: none;
+    }
 }

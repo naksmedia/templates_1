@@ -1,8 +1,16 @@
 .logo_box_head {
   padding: 40px 0px; }
+  @media screen and (max-width: 576px) {
+    .logo_box_head {
+      padding: 15px 10px;
+      vertical-align: middle;
+      text-align: center; } }
 
 .logo_box_free {
   padding: 40px 0px; }
+  @media screen and (max-width: 942px) {
+    .logo_box_free {
+      display: none; } }
 
 .logo_otstup {
   margin-left: 15px;
@@ -10,10 +18,18 @@
 
 .head_number {
   padding: 40px 0px; }
+  @media screen and (max-width: 576px) {
+    .head_number {
+      padding: 15px 5px;
+      vertical-align: middle;
+      text-align: center; } }
 
 .number {
   font-size: 26px;
   font-weight: 500; }
+  @media screen and (max-width: 1300px) {
+    .number {
+      font-size: 20px; } }
 
 .consultant_text {
   font-size: 12px;
@@ -22,9 +38,14 @@
 .feedback_button {
   padding: 60px 0px; }
   .feedback_button a {
-    text-decoration: none; }
-  .feedback_button a {
+    text-decoration: none;
     color: #fff; }
+  @media screen and (max-width: 576px) {
+    .feedback_button {
+      padding: 15px 10px;
+      margin-bottom: 25px;
+      vertical-align: middle;
+      text-align: center; } }
 
 .feedback_header {
   font-size: 16px;
@@ -40,3 +61,6 @@
 .logo_box_sasp {
   padding: 40px 0px;
   text-align: right; }
+  @media screen and (max-width: 1399px) {
+    .logo_box_sasp {
+      display: none; } }

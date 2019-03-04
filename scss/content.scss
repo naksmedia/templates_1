@@ -1,0 +1,134 @@
+.head_box_content{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.head_name_box{
+    font-size: 45px;
+    font-weight: 200;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.head_box_content_small_text{
+    font-size: 16px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.box_content{
+    background-color: #243a60e8;
+    padding: 100px 25px 65px 45px;
+   
+}
+
+// img
+.box_img_service {
+    background: url(/img/img_service_1.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;   
+}
+.box_img_service_2 {
+    background: url(/img/img_service_2.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;   
+}
+.box_img_service_3 {
+    background: url(/img/img_service_3.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;   
+}
+.box_img_service_4 {
+    background: url(/img/img_service_4.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;   
+}
+
+
+// end img
+
+// a decoration
+.box_img_service a{
+    text-decoration: none;
+}
+.box_img_service_2 a{
+    text-decoration: none;
+ 
+}
+.box_img_service_3 a{
+    text-decoration: none;
+ 
+}
+.box_img_service_4 a{
+    text-decoration: none;
+ 
+}
+// end decoration
+
+// style img service
+
+.box_img_service:hover {
+    background-color: #0a3057;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+}
+
+.box_img_service_2{
+    text-decoration: none;
+    &:hover{
+            -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    }
+}
+
+.box_img_service_3{
+    text-decoration: none;
+    &:hover{
+            -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    }
+}
+
+.box_img_service_4{
+    text-decoration: none;
+    &:hover{
+            -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    }
+}
+
+// end style img service
+
+.name_service{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;   
+    font-weight: 450; 
+   
+}
+
+.line_service_yellow{
+    border: 0.5px solid #ffbd3d;
+    width: 250px; 
+    @media screen and (max-width: 320px) {
+       width: 150px;
+    }   
+}

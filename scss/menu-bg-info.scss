@@ -1,16 +1,17 @@
 // Меню
 .menu__background {
-    
-    padding: 40px 0px 40px 0px;   
+
+    padding: 40px 0px 40px 0px;
+
     // border-radius: 7px;    
     @media screen and (max-width: 992px) {
         padding: 15px;
-       margin-bottom: 0px;
+        margin-bottom: 0px;
     }
 
 }
 
-.line_menu{
+.line_menu {
     border: 0.5px solid #fff;
 }
 
@@ -22,9 +23,10 @@
 
 .menu__navbar ul {
     color: #fff;
-    font-size: 16;    
+    font-size: 16;
     text-transform: uppercase;
     justify-content: space-between;
+
     @media screen and (max-width: 992px) {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -52,7 +54,7 @@
 
 }
 
-.dropdown-item{
+.dropdown-item {
     padding: 12px;
 }
 
@@ -62,15 +64,16 @@
     box-shadow: 0 2px 18px rgba(0, 0, 0, 0.09);
     border: none;
     border-radius: 0px;
-    text-transform: initial;   
+    text-transform: initial;
     padding: 12px;
-       @media screen and (max-width: 320px) {
+
+    @media screen and (max-width: 320px) {
         font-size: 16;
         color: #fff;
     }
 }
 
-.dropdown-item a{
+.dropdown-item a {
     margin-bottom: 1px solid #000;
 }
 
@@ -78,6 +81,7 @@
     margin-right: 35px;
     color: #fff;
     font-weight: 450;
+
     @media screen and (max-width: 992px) {
         padding: 0px 0px 15px;
         font-weight: 200;
@@ -182,118 +186,146 @@ input[type="search"]::placeholder {
     background-size: cover;
 }
 
-.system_button{
-    a{
+.system_button {
+    a {
         text-decoration: none;
         color: #fff;
-        }
+    }
 }
 
-.enter_system{
+.enter_system {
     font-size: 18px;
     font-weight: 350;
     color: #fff;
     text-transform: uppercase;
-   
+
 }
 
-.icon_enter{
+.icon_enter {
     margin-top: -5px;
     margin-right: 5px;
 }
 
-.box_head_bg{
-    padding: 115px 0px 115px;
+.box_head_bg {
+    padding: 60px 0px 60px;
 }
 
-.head_bg_text{
+.head_bg_text {
     vertical-align: middle;
     text-align: center;
     font-size: 38px;
     font-weight: 500;
     color: #fff;
     text-transform: uppercase;
-    line-height: 1.8;   
+    line-height: 1.8;
 }
 
-.head_bg_text_small{
+.head_bg_text_small {
     vertical-align: middle;
     text-align: center;
     font-size: 28px;
     font-weight: 300;
-    color: #fff;   
+    color: #fff;
     line-height: 1.8;
     margin-top: 20px;
 }
 
-.head_bg_text_small_two{
+.head_bg_text_small_two {
     vertical-align: middle;
     text-align: center;
     font-size: 18px;
     font-weight: 300;
-    color: #fff;   
+    color: #fff;
     line-height: 1.8;
     margin-top: 10px;
+    margin-bottom: 25px;
 }
 
-.head_bg_box_button{
+.head_bg_box_button {
     vertical-align: middle;
     text-align: center;
+    margin-bottom: 55px;
 }
 
+.request {
+    background: transparent;
+    border: none;
 
-.request_button{
-    background-color: #ffbd3d;
-    border: none; 
-    padding: 10px 25px;
-    a{
+    a {
+        text-decoration: none;
         color: #000;
         font-size: 16px;
-        font-weight: 500;
-        text-decoration: none;
+        font-weight: 450;
     }
-            &:hover{
-                background-color: #e9b754;
-                transition: 0.2s;
-            }
 }
-.service_button{
-    background-color: transparent;
-    border: 1px solid #fff; 
-    padding: 10px 50px;
-    margin-left: 25px;
-    a{
+
+.service {
+    background: transparent;
+    border: none;
+
+    a {
+        text-decoration: none;
         color: #fff;
         font-size: 16px;
-        font-weight: 500;
-        text-decoration: none;
+        font-weight: 450;
     }
-    &:hover{
+}
+
+.request_button {
+    background-color: #ffbd3d;
+    border: none;
+    padding: 10px 25px;
+    color: #000;
+    text-decoration: none;
+    @media screen and (max-width: 320px) {
+        padding: 10px 10px;
+    }
+
+    &:hover {
+        background-color: #e9b754;
+        transition: 0.2s;
+        color: #000;
+    }
+
+}
+
+.service_button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    margin-left: 25px;
+    color: #fff;
+    @media screen and (max-width: 365px) {
+        padding: 10px 45px;
+        margin-left: 10px;
+    }
+
+    &:hover {
         background-color: rgba(255, 255, 255, 0.075);
         transition: 0.2s;
     }
 }
 
-
-.sro_np_naks_text{
+.sro_np_naks_text {
     vertical-align: middle;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
-    color: #fff;   
+    color: #fff;
     line-height: 1.8;
     margin-top: 20px;
 }
 
-.naks_link{
+.naks_link {
     vertical-align: middle;
     text-align: center;
     font-size: 16px;
     font-weight: 300;
-   a{
-    color: #fff; 
-   }  
+
+    a {
+        color: #fff;
+    }
+
     line-height: 1.8;
     margin-top: 20px;
 }
-
