@@ -10,6 +10,9 @@
     text-align: center;
     margin-bottom: 5px;
     text-transform: uppercase;
+    @media screen and (max-width: 435px) {
+        font-size: 20px;
+       }
 }
 
 .box_background_center {
@@ -28,6 +31,9 @@
 .box_content {
     background-color: #243a60e8;
     padding: 100px 25px 65px 45px;
+    @media screen and (max-width: 435px) {
+        padding: 50px 15px 45px 15px;
+       }
 
 }
 
@@ -132,8 +138,6 @@
     }
 }
 
-// end style img service
-
 .name_service {
     font-size: 22px;
     font-weight: 400;
@@ -150,6 +154,8 @@
         width: 150px;
     }
 }
+// end style img service
+
 
 // Center info
 
@@ -299,6 +305,7 @@
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+    
 }
 
 .carousel-control-next-icon {
@@ -316,6 +323,10 @@
 .box_content_contacti {
     background-color: #f5f9fee8;
     padding: 0px 0px 50px;
+    // -moz-background-color: #f5f9fee8;
+    // -o-background-color: #f5f9fee8;
+    // -ms-background-color: #f5f9fee8;
+    // -webkit-background-color: #f5f9fee8;
 }
 
 .number_contacti {
@@ -416,4 +427,126 @@
     font-size: 24px;
     font-weight: 500;
     margin-top: 15px;
+    @media screen and (max-width: 435px) {
+       font-size: 16px;
+       }
+}
+
+// footer
+
+.box_footer_bg{
+    padding: 50px;
+    @media screen and (max-width: 435px) {
+     padding: 25px 15px 25px;
+    }
+}
+
+.box_footer_bg{
+background-color: #2a2d31;
+}
+
+.footer_text_company{
+  color: #6f7379;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.spks_logo{
+    margin-left: 15px;
+    @media screen and (max-width: 435px) {
+        margin-bottom: 15px;
+       }
+}
+
+.name_info_block{
+    color: #6f7379;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+.footer_number{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.footer_number_text{
+font-size: 12px;
+color: #fff;
+margin-bottom: 0px;
+}
+
+.footer_number_mail{
+font-size: 12px;
+color: #fff;
+}
+
+.footer_news{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.date_news_footer{
+    color: #6f7379;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.point_grey::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 0;  
+    margin-top: 5px;
+    background: url(/img/kvadrat_grey.png) center 0 no-repeat;
+}
+
+.footer_info_link{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.feedback_button_footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 35px;
+}
+
+
+.feedback_footer {
+    font-size: 16px;
+    font-weight: 400;
+border: 1px solid #ffe13a;
+    padding: 10px 50px;
+    border-radius: 45px;
+    color: #fff;
+    @media screen and (max-width: 435px) {
+        margin-top: 25px;
+       }
+    &:hover {
+        background-color: #ffffff25;
+        transition: 0.2s;
+    }
+   
+}
+
+.line_footer_basement{
+border: 0.5px solid #4e4e4e;
+margin-top: 35px;
+width: 150px;
+}
+
+.basement__text{
+    font-size: 12px;
+    color: #6f7379;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
