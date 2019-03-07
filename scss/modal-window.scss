@@ -147,7 +147,7 @@ input ~ label[for="soglasie"] {
  }
 
 .button__to__send_zayavka__formmodal{
-    background-color: #3eb5f1;
+    background-color: #12384b;
 border: none;
 color: #fff;
 font-size: 16px;
@@ -162,11 +162,11 @@ padding: 12px 45px;
 
 
 .button__to__send_zayavka__formmodal:hover {
-	background-color: #47bbf5;
+	background-color: #1c495f;
 }
 
 .button__to__send_zayavka__formmodal:active {
-	background-color: #35a9e4;
+	background-color: #081f2b;
 }
 
 /* Выбор несколько из списка */
@@ -235,4 +235,198 @@ hr {
 .accompanying__message__bold{
 	font-size: 18px;
 	font-weight: 400;
+}
+
+
+// Upload Files
+//variables
+$file-uploader__primaryColor: rgb(114, 191, 167);
+$file-uploader__primaryColor--hover: lighten($file-uploader__primaryColor, 15%);
+$file-uploader__black: #242424;
+$file-uploader__error: rgb(214, 93, 56);
+
+//style
+.file-uploader {
+    border-radius: 3px;
+    color: $file-uploader__black;
+}
+
+.file-uploader__message-area {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.file-list {
+    background-color: rgb(208, 255, 214);
+}
+
+.file-list__name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-list li {
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.removal-button {
+    width: 20%;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 153, 153);
+
+    &:hover {
+        background-color: rgb(252, 129, 129);
+        transition: 0.2s;
+    }
+
+    &:active {
+        background-color: rgb(247, 100, 100);
+        transition: 0.2s;
+    }
+
+    cursor: pointer;
+
+    &::before {
+        content: '\2716';
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.file-chooser {
+    padding: 1em;
+    transition: background-color 1s, height 1s;
+    margin-top: 10px;
+    // & p {
+    //     font-size: 18px;
+    //     padding-top: 1em;
+    // }
+}
+
+//layout
+.file-uploader {
+    max-width: 400px;
+    height: auto;
+
+    & input[type=submit] {}
+}
+
+.file-list__name {
+    max-width: 70%;
+    float: left;
+}
+
+.file-list li {
+    @extend %clearfix;
+}
+
+.removal-button {
+    display: inline-block;
+    height: 100%;
+    float: right;
+}
+
+.file-chooser {
+    padding: 0;
+    background: transparent;
+}
+
+input[type=file] {
+    border: none;
+
+}
+
+
+.file-chooser__input {
+    margin: 0 auto;
+}
+
+.file-uploader__submit-button {
+    border-radius: 3px;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    background-color: #8fb6f5;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+
+    & input[type=submit] {
+        border: none;
+    }
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+
+    &:hover {
+        background-color: #325fa8;
+    }
+
+    &:active {
+        background-color: #254e8f;
+    }
+}
+
+//layout
+// .file-uploader {
+//     @extend %clearfix;
+// }
+
+//utility
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.hidden {
+    display: none;
+
+    & input {
+        display: none;
+    }
+}
+
+.error {
+    background-color: $file-uploader__error;
+    color: white;
+}
+
+//reset
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.probel{
+    @media screen and (max-width: 576px) {
+        display: none;
+    } 
+}
+
+.line__grey{
+    @media screen and (max-width: 576px) {
+              border: 0.5px solid #eeeeee;
+              margin-bottom: 5px;
+    } 
+    @media screen and (max-width: 320px){
+              border: 0.5px solid #eeeeee;
+              margin-bottom: 5px;
+    } 
 }

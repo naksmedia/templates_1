@@ -126,7 +126,7 @@ input ~ label[for="sogl"] {
   padding: 0px; }
 
 .button__to__send_zayavka__formmodal {
-  background-color: #3eb5f1;
+  background-color: #12384b;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -139,10 +139,10 @@ input ~ label[for="sogl"] {
       padding: 15px; } }
 
 .button__to__send_zayavka__formmodal:hover {
-  background-color: #47bbf5; }
+  background-color: #1c495f; }
 
 .button__to__send_zayavka__formmodal:active {
-  background-color: #35a9e4; }
+  background-color: #081f2b; }
 
 /* Выбор несколько из списка */
 .choose__item .items {
@@ -196,3 +196,124 @@ hr {
 .accompanying__message__bold {
   font-size: 18px;
   font-weight: 400; }
+
+.file-uploader {
+  border-radius: 3px;
+  color: #242424; }
+
+.file-uploader__message-area {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 15px; }
+
+.file-list {
+  background-color: #d0ffd6; }
+
+.file-list__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.file-list li {
+  height: 50px;
+  line-height: 50px;
+  border: none;
+  overflow: hidden;
+  font-size: 18px; }
+
+.removal-button {
+  width: 20%;
+  border: none;
+  color: white;
+  background-color: #ff9999;
+  cursor: pointer; }
+  .removal-button:hover {
+    background-color: #fc8181;
+    transition: 0.2s; }
+  .removal-button:active {
+    background-color: #f76464;
+    transition: 0.2s; }
+  .removal-button::before {
+    content: '\2716'; }
+  .removal-button:focus {
+    outline: 0; }
+
+.file-chooser {
+  padding: 1em;
+  transition: background-color 1s, height 1s;
+  margin-top: 10px; }
+
+.file-uploader {
+  max-width: 400px;
+  height: auto; }
+
+.file-list__name {
+  max-width: 70%;
+  float: left; }
+
+.removal-button {
+  display: inline-block;
+  height: 100%;
+  float: right; }
+
+.file-chooser {
+  padding: 0;
+  background: transparent; }
+
+input[type=file] {
+  border: none; }
+
+.file-chooser__input {
+  margin: 0 auto; }
+
+.file-uploader__submit-button {
+  border-radius: 3px;
+  border: none;
+  margin-top: 15px;
+  color: white;
+  background-color: #8fb6f5;
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer; }
+  .file-uploader__submit-button input[type=submit] {
+    border: none; }
+  .file-uploader__submit-button:focus {
+    box-shadow: none;
+    outline: none; }
+  .file-uploader__submit-button:hover {
+    background-color: #325fa8; }
+  .file-uploader__submit-button:active {
+    background-color: #254e8f; }
+
+.file-list li:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.hidden {
+  display: none; }
+  .hidden input {
+    display: none; }
+
+.error {
+  background-color: #d65d38;
+  color: white; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+@media screen and (max-width: 576px) {
+  .probel {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .line__grey {
+    border: 0.5px solid #eeeeee;
+    margin-bottom: 5px; } }
+
+@media screen and (max-width: 320px) {
+  .line__grey {
+    border: 0.5px solid #eeeeee;
+    margin-bottom: 5px; } }

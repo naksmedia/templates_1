@@ -2,7 +2,7 @@
   padding: 40px 0px 40px 0px; }
   @media screen and (max-width: 992px) {
     .menu__background {
-      padding: 15px;
+      padding: 15px 0px;
       margin-bottom: 0px; } }
 
 .line_menu {
@@ -84,9 +84,6 @@
 .dropdown-item.active,
 .dropdown-item:active {
   background-color: #03274b; }
-
-.navbar-toggler {
-  padding: 3px 10px; }
 
 .form-control {
   background-color: transparent;
@@ -192,7 +189,7 @@ input[type="search"]::placeholder {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    font-weight: 450; }
+    font-weight: 550; }
 
 .service {
   background: transparent;
